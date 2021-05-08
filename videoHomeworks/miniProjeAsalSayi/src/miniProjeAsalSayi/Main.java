@@ -3,7 +3,7 @@ package miniProjeAsalSayi;
 public class Main {
 
 	public static void main(String[] args) {
-		int number=23;
+		int number=2;
 		//int remainder=number%2;
 		//System.out.println(remainder);
 		boolean isPrime=true;
