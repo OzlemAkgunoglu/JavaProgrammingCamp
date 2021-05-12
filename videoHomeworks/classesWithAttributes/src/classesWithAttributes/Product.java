@@ -18,6 +18,15 @@ public class Product {
 	/*bu ikisi bir arada da yazýlabilir . (Overloading)
 	*/
 	
+	//getter ve setter metotlarý private olan özelliðe baþka classlardan eriþimi saðlar
+	private String description;
+	private double price;
+	private int stockAmount;
+	private String kod;
+	private int id;//private bir özellik sadece bu blok da kullanýlabilir main classdan eriþemezsin
+	private String name;
+	private String renk;
+	
 	public Product(int id, String name,String description,double price,int stockAmount,String renk) {
 		System.out.println("Constructer çalýþtý");
 		this.id=id;
@@ -30,13 +39,7 @@ public class Product {
 	
 	
 	//getter ve setter metotlarý private olan özelliðe baþka classlardan eriþimi saðlar.		private String _name;
-	private String description;
-	private double price;
-	private int stockAmount;
-	private String kod;
-	private int id;//private bir özellik sadece bu blok da kullanýlabilir main classdan eriþemezsin
-	private String name;
-	private String renk;
+	
 	
 	public String getDescription() {
 		return description;
