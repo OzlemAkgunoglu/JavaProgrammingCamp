@@ -11,14 +11,8 @@ public class UserManager {
 		System.out.println("Kullanýcý bilgileri güncellendi");
 	}
 	
-	public void login() {
-		System.out.println("Kullanýcý giriþ yaptý");
-
-	}
-	
-	public void logout() {
-		System.out.println("Kullanýcý çýkýþ yaptý");
-
+	public void deleteUser(User users) {
+		System.out.println("Kullanýcý silindi");
 	}
 	
 	

@@ -1,7 +1,7 @@
 package homeworkDay3;
 
 public class User {
-	
+	private int id;
 	private String name;
 	private String surname;
 	private String email;
@@ -15,19 +15,29 @@ public class User {
 		
 	}
 	
-	public User(String name, String surname, String email, String username, String password,String course) {
+	
+
+	public User(int id,String name, String surname, String email, String username, String password,String course) {
 		super();
+		this.id= id;
 		this.name = name;
 		this.surname = surname;
 		this.email = email;
 		this.username = username;
 		this.password = password;
-		this.course=course;
+		this.course= course;
 	}
 
 
 	//Getter and Setters
 	
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public int getId() {
+		return id;
+	}
 	public String getName() {
 		return name;
 	}

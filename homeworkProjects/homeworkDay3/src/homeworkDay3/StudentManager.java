@@ -1,7 +1,8 @@
 package homeworkDay3;
 
 public class StudentManager extends UserManager {
-	//showprogress
-	
+	public int calculateProgress(int progress) {
+		return progress;
+	}
 	
 }
