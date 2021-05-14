@@ -1,6 +1,14 @@
 package homeworkDay2;
 
-public class Course {
+public class Course {	
+	
+	int id;
+	String name;
+	double price;
+	String lecturer;
+	String description;
+	
+	
 	public Course() {
 
 	}
@@ -14,9 +22,5 @@ public class Course {
 		this.description = description;
 	}
 
-	int id;
-	String name;
-	double price;
-	String lecturer;
-	String description;
+
 }

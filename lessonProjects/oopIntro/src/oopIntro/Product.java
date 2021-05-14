@@ -31,8 +31,9 @@ public class Product {
 		this.unitPrice = unitPrice;
 		this.detail = detail;
 		this.discount = discount;
-		//this.unitPriceAfterDiscount = unitPriceAfterDiscount;
 	}
+		//this.unitPriceAfterDiscount = unitPriceAfterDiscount;
+
 
 	public int getId() {
 		return id;

@@ -1,6 +1,11 @@
 package homeworkDay2;
 
 public class Category {
+	
+	int id;
+	String name;
+	String detail;
+	
 	public Category() {
 
 	}
@@ -12,7 +17,5 @@ public class Category {
 		this.detail = detail;
 	}
 
-	int id;
-	String name;
-	String detail;
+	
 }
